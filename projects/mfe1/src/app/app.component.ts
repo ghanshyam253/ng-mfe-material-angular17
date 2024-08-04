@@ -5,11 +5,12 @@ import { RouterOutlet } from '@angular/router';
 import { Feat1Component } from './feat1/feat1.component';
 import { Feat2Component } from './feat2/feat2.component';
 import { HeaderComponent } from './header/header.component';
+import { FormFieldsComponent } from './form-fields/form-fields.component';
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet, MatButton, MatIconModule, HeaderComponent, Feat1Component, Feat2Component],
+  imports: [RouterOutlet, MatButton, MatIconModule, HeaderComponent, Feat1Component, Feat2Component, FormFieldsComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss'
 })

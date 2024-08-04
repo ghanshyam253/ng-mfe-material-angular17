@@ -1,7 +1,7 @@
 <div [style]="{display: 'flex', flexDirection: 'column', gap: '1rem'}">
 
   <app-header />
-  
+  <app-form-fields/>
   <div [style]="{display: 'flex', gap: '0.5rem'}">
     <button mat-raised-button type="button" color="primary" (click)="onFeatureChange('one')">
       @if (displayedFeature() === 'one') {
@@ -16,7 +16,10 @@
       feat. 2
     </button>
   </div>
+  <div style="height: 1000px; width: 300px;">
 
+
+  </div>
 
   @if(displayedFeature() === 'one') {
   <app-feat1 />
